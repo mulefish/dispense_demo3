@@ -1,0 +1,1742 @@
+[
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 3.5, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Sativa\", \"batchinfo\": \"MER - 31515902\", \"harvest\": \"06/21/24\", \"canabinoids\": 28, \"thc-a\": 5, \"delta_9\": 12, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 13.25,
+        "row": 517,
+        "spool": "2",
+        "store_id": 1,
+        "uid": "03684246d", 
+        "img":"paddle_creek_cannabis_flower.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 7, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Sativa\", \"batchinfo\": \"MER - 31515902\", \"harvest\": \"06/21/24\", \"canabinoids\": 28, \"thc-a\": 5, \"delta_9\": 12, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 13.25,
+        "row": 518,
+        "spool": "4",
+        "store_id": 1,
+        "uid": "0355b6069",
+        "img":"paddle_creak_flower_sativa.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 14, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Sativa\", \"batchinfo\": \"MER - 31515902\", \"harvest\": \"06/21/24\", \"canabinoids\": 28, \"thc-a\": 5, \"delta_9\": 12, \"cbd\": 3}",
+        "instock": 100,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 13.25,
+        "row": 519,
+        "spool": "6",
+        "store_id": 1,
+        "uid": "0d9b7d1b4",
+        "img":"paddle_creak_flower_sativa.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 14, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Sativa\", \"batchinfo\": \"MER - 31515902\", \"harvest\": \"06/21/24\", \"canabinoids\": 28, \"thc-a\": 5, \"delta_9\": 12, \"cbd\": 3}",
+        "instock": 100,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 13.25,
+        "row": 520,
+        "spool": "8",
+        "store_id": 1,
+        "uid": "CFDb7d1b4",
+        "img":"paddle_creak_flower_sativa.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 7, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Indica\", \"batchinfo\": \"MER - 79278904\", \"harvest\": \"06/21/24\", \"canabinoids\": 28, \"thc-a\": 6, \"delta_9\": 10, \"cbd\": 0.5}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 13.98,
+        "row": 521,
+        "spool": "10",
+        "store_id": 1,
+        "uid": "08036b046",
+        "img":"panda.jpeg"
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 14, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Indica\", \"batchinfo\": \"MER - 79278904\", \"harvest\": \"06/21/24\", \"canabinoids\": 28, \"thc-a\": 6, \"delta_9\": 10, \"cbd\": 0.5}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 13.98,
+        "row": 522,
+        "spool": "12",
+        "store_id": 1,
+        "uid": "031297aa3",
+        "img":"panda.jpeg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 3.5, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Sativa\", \"batchinfo\": \"MER - 12640111\", \"harvest\": \"01/03/24\", \"canabinoids\": 26, \"thc-a\": 8, \"delta_9\": 12, \"cbd\": 6}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 19.01,
+        "row": 523,
+        "spool": "14",
+        "store_id": 1,
+        "uid": "0fc786184",
+        "img":"cartoonface.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 7, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Sativa\", \"batchinfo\": \"MER - 12640111\", \"harvest\": \"01/03/24\", \"canabinoids\": 26, \"thc-a\": 8, \"delta_9\": 12, \"cbd\": 6}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 19.01,
+        "row": 524,
+        "spool": "16",
+        "store_id": 1,
+        "uid": "0ddc42d70",
+        "img":"cartoonface.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 14, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Sativa\", \"batchinfo\": \"MER - 12640111\", \"harvest\": \"01/03/24\", \"canabinoids\": 26, \"thc-a\": 8, \"delta_9\": 12, \"cbd\": 6}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 19.01,
+        "row": 525,
+        "spool": "18",
+        "store_id": 1,
+        "uid": "0c5895dc8",
+        "img":"cartoonface.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 3.5, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Indica\", \"batchinfo\": \"MER - 2125303\", \"harvest\": \"01/04/24\", \"canabinoids\": 24, \"thc-a\": 7, \"delta_9\": 14, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 19.06,
+        "row": 526,
+        "spool": "20",
+        "store_id": 1,
+        "uid": "08ac94e2e",
+        "img":"girl_smoking.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 7, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Indica\", \"batchinfo\": \"MER - 2125303\", \"harvest\": \"01/04/24\", \"canabinoids\": 24, \"thc-a\": 7, \"delta_9\": 14, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 19.06,
+        "row": 527,
+        "spool": "22",
+        "store_id": 1,
+        "uid": "4666028",
+        "img":"girl_smoking.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 14, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Indica\", \"batchinfo\": \"MER - 2125303\", \"harvest\": \"01/04/24\", \"canabinoids\": 24, \"thc-a\": 7, \"delta_9\": 14, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 19.06,
+        "row": 528,
+        "spool": "24",
+        "store_id": 1,
+        "uid": "00081271c",
+        "img":"girl_smoking.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 3.5, \"producer\": \"Ballys collective\", \"strain\": \"Kimbo Kush\", \"classification\": \"Sativa\", \"batchinfo\": \"KLT - 7227758\", \"harvest\": \"06/21/24\", \"canabinoids\": 21, \"thc-a\": 8, \"delta_9\": 10, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 21.4,
+        "row": 529,
+        "spool": "26",
+        "store_id": 1,
+        "uid": "131140d95",
+        "img":"foot.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 7, \"producer\": \"Ballys collective\", \"strain\": \"Kimbo Kush\", \"classification\": \"Sativa\", \"batchinfo\": \"KLT - 7227758\", \"harvest\": \"06/21/24\", \"canabinoids\": 21, \"thc-a\": 8, \"delta_9\": 10, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 21.4,
+        "row": 530,
+        "spool": "28",
+        "store_id": 1,
+        "uid": "15babdd50",
+        "img":"bees.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Indica\", \"batchinfo\": \"IO - 57615\", \"harvest\": \"01/16/24\", \"canabinoids\": 23, \"thc-a\": 4, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 10.06,
+        "row": 531,
+        "spool": "30",
+        "store_id": 1,
+        "uid": "UID0b40fbf0b",
+        "img":"smoking_jacket.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Indica\", \"batchinfo\": \"IO - 57615\", \"harvest\": \"01/16/24\", \"canabinoids\": 23, \"thc-a\": 4, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 10.06,
+        "row": 532,
+        "spool": "32",
+        "store_id": 1,
+        "uid": "UID0d7bbf4c5",
+        "img":"smoking_jacket.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Sativa\", \"batchinfo\": \"LKI - 59879\", \"harvest\": \"01/16/24\", \"canabinoids\": 21, \"thc-a\": 6, \"delta_9\": 9, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 14.16,
+        "row": 533,
+        "spool": "34",
+        "store_id": 1,
+        "uid": "UID03f0119a0",
+        "img":"smoking_jacket.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Sativa\", \"batchinfo\": \"LKI - 59879\", \"harvest\": \"01/16/24\", \"canabinoids\": 21, \"thc-a\": 6, \"delta_9\": 9, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 14.16,
+        "row": 534,
+        "spool": "36",
+        "store_id": 1,
+        "uid": "UID072e31b0c",
+        "img":"moon.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Hybrid\", \"batchinfo\": \"IO - 18027\", \"harvest\": \"01/16/24\", \"canabinoids\": 23, \"thc-a\": 6, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 16.76,
+        "row": 535,
+        "spool": "38",
+        "store_id": 1,
+        "uid": "UID0734eb0d8",
+        "img":"moon.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Hybrid\", \"batchinfo\": \"IO - 18027\", \"harvest\": \"01/16/24\", \"canabinoids\": 23, \"thc-a\": 6, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 16.76,
+        "row": 536,
+        "spool": "40",
+        "store_id": 1,
+        "uid": "UID0199a2033",
+        "img":"moon.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Indica\", \"batchinfo\": \"LKI - 12797\", \"harvest\": \"01/16/24\", \"canabinoids\": 21, \"thc-a\": 4, \"delta_9\": 9, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 11.8,
+        "row": 537,
+        "spool": "42",
+        "store_id": 1,
+        "uid": "UID03e3025ab",
+        "img":"moon.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Indica\", \"batchinfo\": \"LKI - 12797\", \"harvest\": \"01/16/24\", \"canabinoids\": 21, \"thc-a\": 4, \"delta_9\": 9, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 11.8,
+        "row": 538,
+        "spool": "44",
+        "store_id": 1,
+        "uid": "UID076d6e4ac",
+        "img":"moon.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Sativa\", \"batchinfo\": \"LKI - 41021\", \"harvest\": \"01/30/24\", \"canabinoids\": 23, \"thc-a\": 6, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 13.49,
+        "row": 539,
+        "spool": "46",
+        "store_id": 1,
+        "uid": "UID097a631ee",
+        "img":"moon.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Sativa\", \"batchinfo\": \"LKI - 41021\", \"harvest\": \"01/30/24\", \"canabinoids\": 23, \"thc-a\": 6, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 13.49,
+        "row": 540,
+        "spool": "48",
+        "store_id": 1,
+        "uid": "UID09618d475",
+        "img":"moon.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Hybrid\", \"batchinfo\": \"LKI - 39824\", \"harvest\": \"01/16/24\", \"canabinoids\": 21, \"thc-a\": 6, \"delta_9\": 12, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 24.68,
+        "row": 541,
+        "spool": "50",
+        "store_id": 1,
+        "uid": "UID0a797c145",
+        "img":"moonrose.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Hybrid\", \"batchinfo\": \"LKI - 39824\", \"harvest\": \"01/16/24\", \"canabinoids\": 21, \"thc-a\": 6, \"delta_9\": 12, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 24.68,
+        "row": 542,
+        "spool": "52",
+        "store_id": 1,
+        "uid": "UID0f4e11f53",
+        "img":"moonrose.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #1\", \"classification\": \"Sativa\", \"batchinfo\": \"HUI - 333588\", \"harvest\": \"01/31/24\", \"canabinoids\": 28, \"thc-a\": 11, \"delta_9\": 12, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 16.79,
+        "row": 543,
+        "spool": "54",
+        "store_id": 1,
+        "uid": "UID02ba3fd62",
+        "img":"tomatos.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #1\", \"classification\": \"Indica\", \"batchinfo\": \"HUI - 190448\", \"harvest\": \"01/16/24\", \"canabinoids\": 28, \"thc-a\": 8, \"delta_9\": 12, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 15.21,
+        "row": 544,
+        "spool": "56",
+        "store_id": 1,
+        "uid": "UID05177d6de",
+        "img":"tomatos.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #1\", \"classification\": \"Hybrid\", \"batchinfo\": \"HUI - 279780\", \"harvest\": \"12/24/22\", \"canabinoids\": 29, \"thc-a\": 8, \"delta_9\": 12, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 23.18,
+        "row": 545,
+        "spool": "58",
+        "store_id": 1,
+        "uid": "UID0345e5497",
+        "img":"tomatos.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #7\", \"classification\": \"Sativa\", \"batchinfo\": \"HUI - 696299\", \"harvest\": \"01/16/24\", \"canabinoids\": 29, \"thc-a\": 11, \"delta_9\": 13, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 17.09,
+        "row": 546,
+        "spool": "60",
+        "store_id": 1,
+        "uid": "UID08232ac4d",
+        "img":"tomatos.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #7\", \"classification\": \"Indica\", \"batchinfo\": \"HUI - 836857\", \"harvest\": \"01/31/24\", \"canabinoids\": 29, \"thc-a\": 8, \"delta_9\": 12, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 18.47,
+        "row": 547,
+        "spool": "62",
+        "store_id": 1,
+        "uid": "UID00379cced",
+        "img":"tomatos.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #7\", \"classification\": \"Hybrid\", \"batchinfo\": \"HUI - 991332\", \"harvest\": \"01/16/24\", \"canabinoids\": 28, \"thc-a\": 11, \"delta_9\": 12, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 24.42,
+        "row": 548,
+        "spool": "64",
+        "store_id": 1,
+        "uid": "UID06779d2c8",
+        "img":"tomatos.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"O.G. Kush #12\", \"classification\": \"Sativa\", \"batchinfo\": \"HUI - 589667\", \"harvest\": \"01/16/24\", \"canabinoids\": 29, \"thc-a\": 8, \"delta_9\": 13, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 19.51,
+        "row": 549,
+        "spool": "66",
+        "store_id": 1,
+        "uid": "UID088a4d030",
+        "img":"tomatos.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"O.G. Kush #12\", \"classification\": \"Indica\", \"batchinfo\": \"HUI - 519739\", \"harvest\": \"01/16/24\", \"canabinoids\": 28, \"thc-a\": 11, \"delta_9\": 12, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "1",
+        "merchant_id": 1,
+        "price": 20.66,
+        "row": 550,
+        "spool": "68",
+        "store_id": 1,
+        "uid": "UID01819e9a2",
+        "img":"tomatos.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 3.5, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Sativa\", \"batchinfo\": \"JEI - 76649543\", \"harvest\": \"01/03/24\", \"canabinoids\": 24, \"thc-a\": 7, \"delta_9\": 14, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 11.97,
+        "row": 551,
+        "spool": "2",
+        "store_id": 1,
+        "uid": "04043ee6a",
+        "img":"cars.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 7, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Sativa\", \"batchinfo\": \"JEI - 76649543\", \"harvest\": \"01/03/24\", \"canabinoids\": 24, \"thc-a\": 7, \"delta_9\": 14, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 11.97,
+        "row": 552,
+        "spool": "4",
+        "store_id": 1,
+        "uid": "03fc25cbc",
+        "img":"cars.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 14, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Sativa\", \"batchinfo\": \"JEI - 76649543\", \"harvest\": \"01/03/24\", \"canabinoids\": 24, \"thc-a\": 7, \"delta_9\": 14, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 11.97,
+        "row": 553,
+        "spool": "6",
+        "store_id": 1,
+        "uid": "079bb660c",
+        "img":"cars.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 3.5, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Indica\", \"batchinfo\": \"MER - 34206014\", \"harvest\": \"01/10/24\", \"canabinoids\": 26, \"thc-a\": 4, \"delta_9\": 14, \"cbd\": 6}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 14.61,
+        "row": 554,
+        "spool": "8",
+        "store_id": 1,
+        "uid": "0ea56e815",
+        "img":"cars.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 7, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Indica\", \"batchinfo\": \"MER - 34206014\", \"harvest\": \"01/10/24\", \"canabinoids\": 26, \"thc-a\": 4, \"delta_9\": 14, \"cbd\": 6}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 14.61,
+        "row": 555,
+        "spool": "10",
+        "store_id": 1,
+        "uid": "0b748be27",
+        "img":"cars.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 14, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Indica\", \"batchinfo\": \"MER - 34206014\", \"harvest\": \"01/10/24\", \"canabinoids\": 26, \"thc-a\": 4, \"delta_9\": 14, \"cbd\": 6}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 14.61,
+        "row": 556,
+        "spool": "12",
+        "store_id": 1,
+        "uid": "0ba1887ce",
+        "img":"cars.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 3.5, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Sativa\", \"batchinfo\": \"JEI - 96624956\", \"harvest\": \"12/30/22\", \"canabinoids\": 28, \"thc-a\": 8, \"delta_9\": 14, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 14.62,
+        "row": 557,
+        "spool": "14",
+        "store_id": 1,
+        "uid": "0aa22a4c2",
+        "img":"cars.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 7, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Sativa\", \"batchinfo\": \"JEI - 96624956\", \"harvest\": \"12/30/22\", \"canabinoids\": 28, \"thc-a\": 8, \"delta_9\": 14, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 14.62,
+        "row": 558,
+        "spool": "16",
+        "store_id": 1,
+        "uid": "07c933b30",
+        "img":"cars.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 14, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Sativa\", \"batchinfo\": \"JEI - 96624956\", \"harvest\": \"12/30/22\", \"canabinoids\": 28, \"thc-a\": 8, \"delta_9\": 14, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 14.62,
+        "row": 559,
+        "spool": "18",
+        "store_id": 1,
+        "uid": "0d6df2400",
+        "img":"cars.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 3.5, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Indica\", \"batchinfo\": \"KLT - 17579434\", \"harvest\": \"01/03/24\", \"canabinoids\": 24, \"thc-a\": 8, \"delta_9\": 11, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 22.07,
+        "row": 560,
+        "spool": "20",
+        "store_id": 1,
+        "uid": "0fa07ed7a",
+        "img":"cars.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 7, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Indica\", \"batchinfo\": \"KLT - 17579434\", \"harvest\": \"01/03/24\", \"canabinoids\": 24, \"thc-a\": 8, \"delta_9\": 11, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 22.07,
+        "row": 561,
+        "spool": "22",
+        "store_id": 1,
+        "uid": "0cb988fff",
+        "img":"cars.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 14, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Indica\", \"batchinfo\": \"KLT - 17579434\", \"harvest\": \"01/03/24\", \"canabinoids\": 24, \"thc-a\": 8, \"delta_9\": 11, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 22.07,
+        "row": 562,
+        "spool": "24",
+        "store_id": 1,
+        "uid": "0eb6a3bb5",
+        "img":"cars.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 3.5, \"producer\": \"Ballys collective\", \"strain\": \"Kimbo Kush\", \"classification\": \"Sativa\", \"batchinfo\": \"MER - 58877681\", \"harvest\": \"01/10/24\", \"canabinoids\": 28, \"thc-a\": 5, \"delta_9\": 12, \"cbd\": 6}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 19.56,
+        "row": 563,
+        "spool": "26",
+        "store_id": 1,
+        "uid": "1d12bb7b9",
+        "img":"carrots.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 7, \"producer\": \"Ballys collective\", \"strain\": \"Kimbo Kush\", \"classification\": \"Sativa\", \"batchinfo\": \"MER - 58877681\", \"harvest\": \"01/10/24\", \"canabinoids\": 28, \"thc-a\": 5, \"delta_9\": 12, \"cbd\": 6}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 19.56,
+        "row": 564,
+        "spool": "28",
+        "store_id": 1,
+        "uid": "1a686b9a9",
+        "img":"carrots.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Indica\", \"batchinfo\": \"IO - 71955\", \"harvest\": \"01/16/24\", \"canabinoids\": 21, \"thc-a\": 4, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 17.58,
+        "row": 565,
+        "spool": "30",
+        "store_id": 1,
+        "uid": "UID0fca0b26f",
+        "img":"tricycle.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Indica\", \"batchinfo\": \"IO - 71955\", \"harvest\": \"01/16/24\", \"canabinoids\": 21, \"thc-a\": 4, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 17.58,
+        "row": 566,
+        "spool": "32",
+        "store_id": 1,
+        "uid": "UID0f3d4751c",
+        "img":"tricycle.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Sativa\", \"batchinfo\": \"IO - 2602\", \"harvest\": \"01/16/24\", \"canabinoids\": 21, \"thc-a\": 6, \"delta_9\": 9, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 22.54,
+        "row": 567,
+        "spool": "34",
+        "store_id": 1,
+        "uid": "UID0884f9561",
+        "img":"tricycle.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Sativa\", \"batchinfo\": \"IO - 2602\", \"harvest\": \"01/16/24\", \"canabinoids\": 21, \"thc-a\": 6, \"delta_9\": 9, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 22.54,
+        "row": 568,
+        "spool": "36",
+        "store_id": 1,
+        "uid": "UID09ecd225f",
+        "img":"tricycle.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Hybrid\", \"batchinfo\": \"LKI - 62698\", \"harvest\": \"01/16/24\", \"canabinoids\": 21, \"thc-a\": 4, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 20.71,
+        "row": 569,
+        "spool": "38",
+        "store_id": 1,
+        "uid": "UID0eefb6e38",
+        "img":"tricycle.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Hybrid\", \"batchinfo\": \"LKI - 62698\", \"harvest\": \"01/16/24\", \"canabinoids\": 21, \"thc-a\": 4, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 20.71,
+        "row": 570,
+        "spool": "40",
+        "store_id": 1,
+        "uid": "UID0e0decf71",
+        "img":"tricycle.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Indica\", \"batchinfo\": \"IO - 7112\", \"harvest\": \"01/16/24\", \"canabinoids\": 23, \"thc-a\": 6, \"delta_9\": 12, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 11.55,
+        "row": 571,
+        "spool": "42",
+        "store_id": 1,
+        "uid": "UID04b56799d",
+        "img":"tricycle.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Indica\", \"batchinfo\": \"IO - 7112\", \"harvest\": \"01/16/24\", \"canabinoids\": 23, \"thc-a\": 6, \"delta_9\": 12, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 11.55,
+        "row": 572,
+        "spool": "44",
+        "store_id": 1,
+        "uid": "UID00877e0b2",
+        "img":"tricycle.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Sativa\", \"batchinfo\": \"IO - 39681\", \"harvest\": \"01/30/24\", \"canabinoids\": 23, \"thc-a\": 4, \"delta_9\": 9, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 16.16,
+        "row": 573,
+        "spool": "46",
+        "store_id": 1,
+        "uid": "UID0796a3f5d",
+        "img":"tricycle.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Sativa\", \"batchinfo\": \"IO - 39681\", \"harvest\": \"01/30/24\", \"canabinoids\": 23, \"thc-a\": 4, \"delta_9\": 9, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 16.16,
+        "row": 574,
+        "spool": "48",
+        "store_id": 1,
+        "uid": "UID00ed7ae3d",        
+        "img":"tricycle.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Hybrid\", \"batchinfo\": \"IO - 27739\", \"harvest\": \"01/30/24\", \"canabinoids\": 23, \"thc-a\": 6, \"delta_9\": 9, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 15.81,
+        "row": 575,
+        "spool": "50",
+        "store_id": 1,
+        "uid": "UID0bfcc706e",
+        "img":"tricycle.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Hybrid\", \"batchinfo\": \"IO - 27739\", \"harvest\": \"01/30/24\", \"canabinoids\": 23, \"thc-a\": 6, \"delta_9\": 9, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 15.81,
+        "row": 576,
+        "spool": "52",
+        "store_id": 1,
+        "uid": "UID0b58b5ed2",
+        "img":"tricycle.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #1\", \"classification\": \"Sativa\", \"batchinfo\": \"HUI - 137686\", \"harvest\": \"01/16/24\", \"canabinoids\": 29, \"thc-a\": 11, \"delta_9\": 13, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 10.94,
+        "row": 577,
+        "spool": "54",
+        "store_id": 1,
+        "uid": "UID0c0185bc0",
+        "img":"greengrapes.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #1\", \"classification\": \"Indica\", \"batchinfo\": \"HUI - 127679\", \"harvest\": \"01/16/24\", \"canabinoids\": 28, \"thc-a\": 11, \"delta_9\": 13, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 11.21,
+        "row": 578,
+        "spool": "56",
+        "store_id": 1,
+        "uid": "UID0d6fcb4d9",
+        "img":"greengrapes.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #1\", \"classification\": \"Hybrid\", \"batchinfo\": \"HUI - 74032\", \"harvest\": \"12/24/22\", \"canabinoids\": 28, \"thc-a\": 8, \"delta_9\": 13, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 20.99,
+        "row": 579,
+        "spool": "58",
+        "store_id": 1,
+        "uid": "UID01bb28511",
+        "img":"greengrapes.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #7\", \"classification\": \"Sativa\", \"batchinfo\": \"HUI - 961317\", \"harvest\": \"01/31/24\", \"canabinoids\": 29, \"thc-a\": 11, \"delta_9\": 13, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 13.08,
+        "row": 580,
+        "spool": "60",
+        "store_id": 1,
+        "uid": "UID0797c5760",
+        "img":"greengrapes.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #7\", \"classification\": \"Indica\", \"batchinfo\": \"HUI - 290616\", \"harvest\": \"12/24/22\", \"canabinoids\": 29, \"thc-a\": 11, \"delta_9\": 13, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 22.49,
+        "row": 581,
+        "spool": "62",
+        "store_id": 1,
+        "uid": "UID0fe299674",
+        "img":"greengrapes.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #7\", \"classification\": \"Hybrid\", \"batchinfo\": \"HUI - 177884\", \"harvest\": \"01/16/24\", \"canabinoids\": 28, \"thc-a\": 8, \"delta_9\": 12, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 15.64,
+        "row": 582,
+        "spool": "64",
+        "store_id": 1,
+        "uid": "UID0976afb83",
+        "img":"greengrapes.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"O.G. Kush #12\", \"classification\": \"Sativa\", \"batchinfo\": \"HUI - 947231\", \"harvest\": \"12/24/22\", \"canabinoids\": 28, \"thc-a\": 11, \"delta_9\": 12, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 12.64,
+        "row": 583,
+        "spool": "66",
+        "store_id": 1,
+        "uid": "UID027e637a1",
+        "img":"kush_map.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"O.G. Kush #12\", \"classification\": \"Indica\", \"batchinfo\": \"HUI - 81454\", \"harvest\": \"01/31/24\", \"canabinoids\": 29, \"thc-a\": 11, \"delta_9\": 13, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "2",
+        "merchant_id": 1,
+        "price": 18.09,
+        "row": 584,
+        "spool": "68",
+        "store_id": 1,
+        "uid": "UID0aa4c6dd0",
+        "img":"kush_map.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 3.5, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Sativa\", \"batchinfo\": \"JEI - 11852014\", \"harvest\": \"01/10/24\", \"canabinoids\": 26, \"thc-a\": 6, \"delta_9\": 14, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 11.93,
+        "row": 585,
+        "spool": "2",
+        "store_id": 2,
+        "uid": "04f1238ad",
+        "img":"girl_smoking_leaf.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 7, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Sativa\", \"batchinfo\": \"JEI - 11852014\", \"harvest\": \"01/10/24\", \"canabinoids\": 26, \"thc-a\": 6, \"delta_9\": 14, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 11.93,
+        "row": 586,
+        "spool": "4",
+        "store_id": 2,
+        "uid": "0a00d939f",
+        "img":"girl_smoking_leaf.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 14, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Sativa\", \"batchinfo\": \"JEI - 11852014\", \"harvest\": \"01/10/24\", \"canabinoids\": 26, \"thc-a\": 6, \"delta_9\": 14, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 11.93,
+        "row": 587,
+        "spool": "6",
+        "store_id": 2,
+        "uid": "0094f47cc",
+        "img":"girl_smoking_leaf.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 3.5, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Indica\", \"batchinfo\": \"MER - 95785537\", \"harvest\": \"06/21/24\", \"canabinoids\": 26, \"thc-a\": 8, \"delta_9\": 11, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 16.72,
+        "row": 588,
+        "spool": "8",
+        "store_id": 2,
+        "uid": "059785b47",
+        "img":"girl_smoking_leaf.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 7, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Indica\", \"batchinfo\": \"MER - 95785537\", \"harvest\": \"06/21/24\", \"canabinoids\": 26, \"thc-a\": 8, \"delta_9\": 11, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 16.72,
+        "row": 589,
+        "spool": "10",
+        "store_id": 2,
+        "uid": "01cf79c6e",
+        "img":"girl_smoking_leaf.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 14, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Indica\", \"batchinfo\": \"MER - 95785537\", \"harvest\": \"06/21/24\", \"canabinoids\": 26, \"thc-a\": 8, \"delta_9\": 11, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 16.72,
+        "row": 590,
+        "spool": "12",
+        "store_id": 2,
+        "uid": "0497c9819",
+        "img":"girl_smoking_leaf.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 3.5, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Sativa\", \"batchinfo\": \"KLT - 19159893\", \"harvest\": \"01/04/24\", \"canabinoids\": 28, \"thc-a\": 8, \"delta_9\": 14, \"cbd\": 0.5}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 10.27,
+        "row": 591,
+        "spool": "14",
+        "store_id": 2,
+        "uid": "0c3db5670",
+        "img":"girl_smoking_leaf.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 7, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Sativa\", \"batchinfo\": \"KLT - 19159893\", \"harvest\": \"01/04/24\", \"canabinoids\": 28, \"thc-a\": 8, \"delta_9\": 14, \"cbd\": 0.5}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 10.27,
+        "row": 592,
+        "spool": "16",
+        "store_id": 2,
+        "uid": "006fc9783",
+        "img":"whale.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 14, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Sativa\", \"batchinfo\": \"KLT - 19159893\", \"harvest\": \"01/04/24\", \"canabinoids\": 28, \"thc-a\": 8, \"delta_9\": 14, \"cbd\": 0.5}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 10.27,
+        "row": 593,
+        "spool": "18",
+        "store_id": 2,
+        "uid": "0c3db5111",
+        "img":"whale.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 3.5, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Indica\", \"batchinfo\": \"JEI - 44389726\", \"harvest\": \"06/21/24\", \"canabinoids\": 21, \"thc-a\": 8, \"delta_9\": 12, \"cbd\": 6}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 24.5,
+        "row": 594,
+        "spool": "20",
+        "store_id": 2,
+        "uid": "079d3ca77",
+        "img":"whale.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 7, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Indica\", \"batchinfo\": \"JEI - 44389726\", \"harvest\": \"06/21/24\", \"canabinoids\": 21, \"thc-a\": 8, \"delta_9\": 12, \"cbd\": 6}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 24.5,
+        "row": 595,
+        "spool": "22",
+        "store_id": 2,
+        "uid": "06ac2c1c8",
+        "img":"whale.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 14, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Indica\", \"batchinfo\": \"JEI - 44389726\", \"harvest\": \"06/21/24\", \"canabinoids\": 21, \"thc-a\": 8, \"delta_9\": 12, \"cbd\": 6}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 24.5,
+        "row": 596,
+        "spool": "24",
+        "store_id": 2,
+        "uid": "0c3a06da1",
+        "img":"whale.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 3.5, \"producer\": \"Ballys collective\", \"strain\": \"Kimbo Kush\", \"classification\": \"Sativa\", \"batchinfo\": \"MER - 29493989\", \"harvest\": \"12/30/22\", \"canabinoids\": 26, \"thc-a\": 8, \"delta_9\": 14, \"cbd\": 6}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 16.59,
+        "row": 597,
+        "spool": "26",
+        "store_id": 2,
+        "uid": "170aea933",
+        "img":"hummingbird.jpg"
+        
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 7, \"producer\": \"Ballys collective\", \"strain\": \"Kimbo Kush\", \"classification\": \"Sativa\", \"batchinfo\": \"MER - 29493989\", \"harvest\": \"12/30/22\", \"canabinoids\": 26, \"thc-a\": 8, \"delta_9\": 14, \"cbd\": 6}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 16.59,
+        "row": 598,
+        "spool": "28",
+        "store_id": 2,
+        "uid": "15194aca3",
+        "img":"hummingbird.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Indica\", \"batchinfo\": \"IO - 16483\", \"harvest\": \"01/30/24\", \"canabinoids\": 21, \"thc-a\": 6, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 15.47,
+        "row": 599,
+        "spool": "30",
+        "store_id": 2,
+        "uid": "UID04fb0461d",
+        "img":"doctor.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Indica\", \"batchinfo\": \"IO - 16483\", \"harvest\": \"01/30/24\", \"canabinoids\": 21, \"thc-a\": 6, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 15.47,
+        "row": 600,
+        "spool": "32",
+        "store_id": 2,
+        "uid": "UID02fc5947a",
+        "img":"doctor.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Sativa\", \"batchinfo\": \"IO - 46159\", \"harvest\": \"01/30/24\", \"canabinoids\": 23, \"thc-a\": 6, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 19.64,
+        "row": 601,
+        "spool": "34",
+        "store_id": 2,
+        "uid": "UID0aa1a9505",
+        "img":"dabsy.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Sativa\", \"batchinfo\": \"IO - 46159\", \"harvest\": \"01/30/24\", \"canabinoids\": 23, \"thc-a\": 6, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 19.64,
+        "row": 602,
+        "spool": "36",
+        "store_id": 2,
+        "uid": "UID07767f97e",
+        "img":"dabsy.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Hybrid\", \"batchinfo\": \"IO - 33407\", \"harvest\": \"01/16/24\", \"canabinoids\": 23, \"thc-a\": 4, \"delta_9\": 9, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 14.95,
+        "row": 603,
+        "spool": "38",
+        "store_id": 2,
+        "uid": "UID0131b9f48",
+        "img":"dabsy.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Hybrid\", \"batchinfo\": \"IO - 33407\", \"harvest\": \"01/16/24\", \"canabinoids\": 23, \"thc-a\": 4, \"delta_9\": 9, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 14.95,
+        "row": 604,
+        "spool": "40",
+        "store_id": 2,
+        "uid": "UID082dcc78b",
+        "img":"dabsy.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Indica\", \"batchinfo\": \"LKI - 90950\", \"harvest\": \"01/30/24\", \"canabinoids\": 23, \"thc-a\": 4, \"delta_9\": 9, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 19.56,
+        "row": 605,
+        "spool": "42",
+        "store_id": 2,
+        "uid": "UID052a7328a",
+        "img":"dabsy.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Indica\", \"batchinfo\": \"LKI - 90950\", \"harvest\": \"01/30/24\", \"canabinoids\": 23, \"thc-a\": 4, \"delta_9\": 9, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 19.56,
+        "row": 606,
+        "spool": "44",
+        "store_id": 2,
+        "uid": "UID0c93fd671",
+        "img":"dabsy.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Sativa\", \"batchinfo\": \"LKI - 73925\", \"harvest\": \"01/16/24\", \"canabinoids\": 23, \"thc-a\": 6, \"delta_9\": 9, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 11.19,
+        "row": 607,
+        "spool": "46",
+        "store_id": 2,
+        "uid": "UID073c8c075",
+        "img":"dabsy.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Sativa\", \"batchinfo\": \"LKI - 73925\", \"harvest\": \"01/16/24\", \"canabinoids\": 23, \"thc-a\": 6, \"delta_9\": 9, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 11.19,
+        "row": 608,
+        "spool": "48",
+        "store_id": 2,
+        "uid": "UID0493fee5d",
+        "img":"dabsy.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Hybrid\", \"batchinfo\": \"IO - 29354\", \"harvest\": \"01/30/24\", \"canabinoids\": 23, \"thc-a\": 4, \"delta_9\": 12, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 11.56,
+        "row": 609,
+        "spool": "50",
+        "store_id": 2,
+        "uid": "UID05f4f93c2",
+        "img":"dabsy.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Hybrid\", \"batchinfo\": \"IO - 29354\", \"harvest\": \"01/30/24\", \"canabinoids\": 23, \"thc-a\": 4, \"delta_9\": 12, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 11.56,
+        "row": 610,
+        "spool": "52",
+        "store_id": 2,
+        "uid": "UID08decbf90",
+        "img":"dabsy.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #1\", \"classification\": \"Sativa\", \"batchinfo\": \"HUI - 659501\", \"harvest\": \"12/24/22\", \"canabinoids\": 29, \"thc-a\": 8, \"delta_9\": 13, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 11.91,
+        "row": 611,
+        "spool": "54",
+        "store_id": 2,
+        "uid": "UID0e94f1ea7",        
+        "img":"boat.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #1\", \"classification\": \"Indica\", \"batchinfo\": \"HUI - 623537\", \"harvest\": \"01/16/24\", \"canabinoids\": 29, \"thc-a\": 11, \"delta_9\": 12, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 15.52,
+        "row": 612,
+        "spool": "56",
+        "store_id": 2,
+        "uid": "UID01706bd2b",
+        "img":"boat.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #1\", \"classification\": \"Hybrid\", \"batchinfo\": \"HUI - 762122\", \"harvest\": \"12/24/22\", \"canabinoids\": 28, \"thc-a\": 11, \"delta_9\": 13, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 19.61,
+        "row": 613,
+        "spool": "58",
+        "store_id": 2,
+        "uid": "UID0d7642bd0",
+        "img":"boat.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #7\", \"classification\": \"Sativa\", \"batchinfo\": \"HUI - 842836\", \"harvest\": \"12/24/22\", \"canabinoids\": 29, \"thc-a\": 11, \"delta_9\": 13, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 11.32,
+        "row": 614,
+        "spool": "60",
+        "store_id": 2,
+        "uid": "UID0aa073732",
+        "img":"boat.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #7\", \"classification\": \"Indica\", \"batchinfo\": \"HUI - 56551\", \"harvest\": \"01/16/24\", \"canabinoids\": 29, \"thc-a\": 11, \"delta_9\": 12, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 21.32,
+        "row": 615,
+        "spool": "62",
+        "store_id": 2,
+        "uid": "UID00ccbeceb",
+        "img":"boat.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #7\", \"classification\": \"Hybrid\", \"batchinfo\": \"HUI - 687553\", \"harvest\": \"01/16/24\", \"canabinoids\": 28, \"thc-a\": 8, \"delta_9\": 13, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 16.96,
+        "row": 616,
+        "spool": "64",
+        "store_id": 2,
+        "uid": "UID0e9f0d8de",
+        "img":"boat.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"O.G. Kush #12\", \"classification\": \"Sativa\", \"batchinfo\": \"HUI - 521273\", \"harvest\": \"12/24/22\", \"canabinoids\": 28, \"thc-a\": 11, \"delta_9\": 13, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 20.98,
+        "row": 617,
+        "spool": "66",
+        "store_id": 2,
+        "uid": "UID01574e458",
+        "img":"boat.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"O.G. Kush #12\", \"classification\": \"Indica\", \"batchinfo\": \"HUI - 802133\", \"harvest\": \"12/24/22\", \"canabinoids\": 28, \"thc-a\": 8, \"delta_9\": 13, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "3",
+        "merchant_id": 1,
+        "price": 24.75,
+        "row": 618,
+        "spool": "68",
+        "store_id": 2,
+        "uid": "UID011d3afd6",
+        "img":"boat.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 3.5, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Sativa\", \"batchinfo\": \"JEI - 10035592\", \"harvest\": \"01/04/24\", \"canabinoids\": 28, \"thc-a\": 5, \"delta_9\": 11, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 22.34,
+        "row": 619,
+        "spool": "2",
+        "store_id": 3,
+        "uid": "05527cba7",
+        "img":"boat.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 7, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Sativa\", \"batchinfo\": \"JEI - 10035592\", \"harvest\": \"01/04/24\", \"canabinoids\": 28, \"thc-a\": 5, \"delta_9\": 11, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 22.34,
+        "row": 620,
+        "spool": "4",
+        "store_id": 3,
+        "uid": "0bfc08e70",
+        "img":"boat.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 14, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Sativa\", \"batchinfo\": \"JEI - 10035592\", \"harvest\": \"01/04/24\", \"canabinoids\": 28, \"thc-a\": 5, \"delta_9\": 11, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 22.34,
+        "row": 621,
+        "spool": "6",
+        "store_id": 3,
+        "uid": "0659cdd1e",
+        "img":"boat.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 3.5, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Indica\", \"batchinfo\": \"JEI - 37199720\", \"harvest\": \"01/03/24\", \"canabinoids\": 21, \"thc-a\": 4, \"delta_9\": 9, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 18.89,
+        "row": 622,
+        "spool": "8",
+        "store_id": 3,
+        "uid": "07ad312f6",
+        "img":"boat.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 7, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Indica\", \"batchinfo\": \"JEI - 37199720\", \"harvest\": \"01/03/24\", \"canabinoids\": 21, \"thc-a\": 4, \"delta_9\": 9, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 18.89,
+        "row": 623,
+        "spool": "10",
+        "store_id": 3,
+        "uid": "0ed79c400",
+        "img":"boat.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 14, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Green Arrow\", \"classification\": \"Indica\", \"batchinfo\": \"JEI - 37199720\", \"harvest\": \"01/03/24\", \"canabinoids\": 21, \"thc-a\": 4, \"delta_9\": 9, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 18.89,
+        "row": 624,
+        "spool": "12",
+        "store_id": 3,
+        "uid": "0d04dc28f",
+        "img":"boat.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 3.5, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Sativa\", \"batchinfo\": \"JEI - 64560907\", \"harvest\": \"01/04/24\", \"canabinoids\": 26, \"thc-a\": 8, \"delta_9\": 11, \"cbd\": 0.5}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 17.97,
+        "row": 625,
+        "spool": "14",
+        "store_id": 3,
+        "uid": "075ae6862",
+        "img":"boat.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 7, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Sativa\", \"batchinfo\": \"JEI - 64560907\", \"harvest\": \"01/04/24\", \"canabinoids\": 26, \"thc-a\": 8, \"delta_9\": 11, \"cbd\": 0.5}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 17.97,
+        "row": 626,
+        "spool": "16",
+        "store_id": 3,
+        "uid": "08c6f5ee3",
+        "img":"boat.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 14, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Sativa\", \"batchinfo\": \"JEI - 64560907\", \"harvest\": \"01/04/24\", \"canabinoids\": 26, \"thc-a\": 8, \"delta_9\": 11, \"cbd\": 0.5}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 17.97,
+        "row": 627,
+        "spool": "18",
+        "store_id": 3,
+        "uid": "00d3337e9",
+        "img":"boat.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 3.5, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Indica\", \"batchinfo\": \"JEI - 27799283\", \"harvest\": \"12/30/22\", \"canabinoids\": 28, \"thc-a\": 4, \"delta_9\": 12, \"cbd\": 0.5}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 20.83,
+        "row": 628,
+        "spool": "20",
+        "store_id": 3,
+        "uid": "0ac489980",
+        "img":"boat.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 7, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Indica\", \"batchinfo\": \"JEI - 27799283\", \"harvest\": \"12/30/22\", \"canabinoids\": 28, \"thc-a\": 4, \"delta_9\": 12, \"cbd\": 0.5}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 20.83,
+        "row": 629,
+        "spool": "22",
+        "store_id": 3,
+        "uid": "059c3c89a",
+        "img":"balloon.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 14, \"producer\": \"Paddle Creek Cannabis\", \"strain\": \"Red Diamonds\", \"classification\": \"Indica\", \"batchinfo\": \"JEI - 27799283\", \"harvest\": \"12/30/22\", \"canabinoids\": 28, \"thc-a\": 4, \"delta_9\": 12, \"cbd\": 0.5}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 20.83,
+        "row": 630,
+        "spool": "24",
+        "store_id": 3,
+        "uid": "03b19b39d",
+        "img":"balloon.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 3.5, \"producer\": \"Ballys collective\", \"strain\": \"Kimbo Kush\", \"classification\": \"Sativa\", \"batchinfo\": \"KLT - 85301419\", \"harvest\": \"12/30/22\", \"canabinoids\": 26, \"thc-a\": 6, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 22.16,
+        "row": 631,
+        "spool": "26",
+        "store_id": 3,
+        "uid": "13d2129b6",
+        "img":"balloon.jpg"
+
+    },
+    {
+        "JSON": "{\"type\": \"Flower\", \"grams\": 7, \"producer\": \"Ballys collective\", \"strain\": \"Kimbo Kush\", \"classification\": \"Sativa\", \"batchinfo\": \"KLT - 85301419\", \"harvest\": \"12/30/22\", \"canabinoids\": 26, \"thc-a\": 6, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 22.16,
+        "row": 632,
+        "spool": "28",
+        "store_id": 3,
+        "uid": "164ffdb2c",
+        "img":"balloon.jpg"
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Indica\", \"batchinfo\": \"IO - 56196\", \"harvest\": \"01/30/24\", \"canabinoids\": 23, \"thc-a\": 4, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 10.79,
+        "row": 633,
+        "spool": "30",
+        "store_id": 3,
+        "uid": "UID098915da6",
+        "img":"wax.jpg"
+ 
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Indica\", \"batchinfo\": \"IO - 56196\", \"harvest\": \"01/30/24\", \"canabinoids\": 23, \"thc-a\": 4, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 10.79,
+        "row": 634,
+        "spool": "32",
+        "store_id": 3,
+        "uid": "UID0f18b70c8",
+        "img":"wax.jpg"
+ 
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Sativa\", \"batchinfo\": \"IO - 87405\", \"harvest\": \"01/30/24\", \"canabinoids\": 23, \"thc-a\": 4, \"delta_9\": 12, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 19.87,
+        "row": 635,
+        "spool": "34",
+        "store_id": 3,
+        "uid": "UID088a6326c",
+        "img":"wax.jpg"
+ 
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Sativa\", \"batchinfo\": \"IO - 87405\", \"harvest\": \"01/30/24\", \"canabinoids\": 23, \"thc-a\": 4, \"delta_9\": 12, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 19.87,
+        "row": 636,
+        "spool": "36",
+        "store_id": 3,
+        "uid": "UID06da9c87f",
+        "img":"wax.jpg"
+ 
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Hybrid\", \"batchinfo\": \"IO - 37443\", \"harvest\": \"01/16/24\", \"canabinoids\": 23, \"thc-a\": 6, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 10.97,
+        "row": 637,
+        "spool": "38",
+        "store_id": 3,
+        "uid": "UID077ed78b3",
+        "img":"wax.jpg"
+ 
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Dr. Why\", \"classification\": \"Hybrid\", \"batchinfo\": \"IO - 37443\", \"harvest\": \"01/16/24\", \"canabinoids\": 23, \"thc-a\": 6, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 10.97,
+        "row": 638,
+        "spool": "40",
+        "store_id": 3,
+        "uid": "UID0886735de",
+        "img":"wax.jpg"
+ 
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Indica\", \"batchinfo\": \"IO - 41179\", \"harvest\": \"01/30/24\", \"canabinoids\": 23, \"thc-a\": 4, \"delta_9\": 9, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 17.41,
+        "row": 639,
+        "spool": "42",
+        "store_id": 3,
+        "uid": "UID0bb228c83",
+        "img":"wax.jpg"
+ 
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Indica\", \"batchinfo\": \"IO - 41179\", \"harvest\": \"01/30/24\", \"canabinoids\": 23, \"thc-a\": 4, \"delta_9\": 9, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 17.41,
+        "row": 640,
+        "spool": "44",
+        "store_id": 3,
+        "uid": "UID01c12d1b2",
+        "img":"wax.jpg"
+ 
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Sativa\", \"batchinfo\": \"LKI - 29922\", \"harvest\": \"01/30/24\", \"canabinoids\": 21, \"thc-a\": 6, \"delta_9\": 9, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 15.94,
+        "row": 641,
+        "spool": "46",
+        "store_id": 3,
+        "uid": "UID022b7a940",
+        "img":"wax.jpg"
+ 
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Sativa\", \"batchinfo\": \"LKI - 29922\", \"harvest\": \"01/30/24\", \"canabinoids\": 21, \"thc-a\": 6, \"delta_9\": 9, \"cbd\": 4}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 15.94,
+        "row": 642,
+        "spool": "48",
+        "store_id": 3,
+        "uid": "UID00236808b",
+        "img":"wax.jpg"
+ 
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 0.5, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Hybrid\", \"batchinfo\": \"LKI - 82356\", \"harvest\": \"01/30/24\", \"canabinoids\": 21, \"thc-a\": 6, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 11.1,
+        "row": 643,
+        "spool": "50",
+        "store_id": 3,
+        "uid": "UID0f876e79e",
+        "img":"wax.jpg"
+ 
+    },
+    {
+        "JSON": "{\"type\": \"Cartridge\", \"grams\": 1, \"producer\": \"Dabsy\", \"strain\": \"Cyrex\", \"classification\": \"Hybrid\", \"batchinfo\": \"LKI - 82356\", \"harvest\": \"01/30/24\", \"canabinoids\": 21, \"thc-a\": 6, \"delta_9\": 12, \"cbd\": 5}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 11.1,
+        "row": 644,
+        "spool": "52",
+        "store_id": 3,
+        "uid": "UID072602331",
+        "img":"wax.jpg"
+ 
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #1\", \"classification\": \"Sativa\", \"batchinfo\": \"HUI - 862007\", \"harvest\": \"01/16/24\", \"canabinoids\": 29, \"thc-a\": 8, \"delta_9\": 12, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 12.67,
+        "row": 645,
+        "spool": "54",
+        "store_id": 3,
+        "uid": "UID018b1309e",
+        "img":"wax.jpg"
+ 
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #1\", \"classification\": \"Indica\", \"batchinfo\": \"HUI - 464818\", \"harvest\": \"01/16/24\", \"canabinoids\": 29, \"thc-a\": 8, \"delta_9\": 13, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 23.17,
+        "row": 646,
+        "spool": "56",
+        "store_id": 3,
+        "uid": "UID09764b247",
+        "img":"wax.jpg"
+ 
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #1\", \"classification\": \"Hybrid\", \"batchinfo\": \"HUI - 138810\", \"harvest\": \"01/16/24\", \"canabinoids\": 28, \"thc-a\": 11, \"delta_9\": 12, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 13.91,
+        "row": 647,
+        "spool": "58",
+        "store_id": 3,
+        "uid": "UID02c3a1af1",
+        "img":"wax.jpg"
+ 
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #7\", \"classification\": \"Sativa\", \"batchinfo\": \"HUI - 618518\", \"harvest\": \"12/24/22\", \"canabinoids\": 28, \"thc-a\": 11, \"delta_9\": 13, \"cbd\": 3}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 15.51,
+        "row": 648,
+        "spool": "60",
+        "store_id": 3,
+        "uid": "UID0c65ed50c",
+        "img":"wax.jpg"
+ 
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #7\", \"classification\": \"Indica\", \"batchinfo\": \"HUI - 743632\", \"harvest\": \"01/16/24\", \"canabinoids\": 29, \"thc-a\": 11, \"delta_9\": 13, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 23.26,
+        "row": 649,
+        "spool": "62",
+        "store_id": 3,
+        "uid": "UID05f9e98b7",
+        "img":"wax.jpg"
+ 
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"Grapes #7\", \"classification\": \"Hybrid\", \"batchinfo\": \"HUI - 627923\", \"harvest\": \"01/16/24\", \"canabinoids\": 28, \"thc-a\": 8, \"delta_9\": 13, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 18.62,
+        "row": 650,
+        "spool": "64",
+        "store_id": 3,
+        "uid": "UID0915397c9",
+        "img":"wax.jpg"
+ 
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"O.G. Kush #12\", \"classification\": \"Sativa\", \"batchinfo\": \"HUI - 909721\", \"harvest\": \"12/24/22\", \"canabinoids\": 28, \"thc-a\": 11, \"delta_9\": 12, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 20.36,
+        "row": 651,
+        "spool": "66",
+        "store_id": 3,
+        "uid": "UID0c7be65cb",
+        "img":"wax.jpg"
+ 
+    },
+    {
+        "JSON": "{\"type\": \"Wax\", \"grams\": 1, \"producer\": \"420 Omega\", \"strain\": \"O.G. Kush #12\", \"classification\": \"Indica\", \"batchinfo\": \"HUI - 139045\", \"harvest\": \"12/24/22\", \"canabinoids\": 29, \"thc-a\": 8, \"delta_9\": 12, \"cbd\": 2}",
+        "instock": 10,
+        "machine_id": "4",
+        "merchant_id": 2,
+        "price": 20.72,
+        "row": 652,
+        "spool": "68",
+        "store_id": 3,
+        "uid": "UID096a53920",
+        "img":"wax.jpg"
+    }
+]
