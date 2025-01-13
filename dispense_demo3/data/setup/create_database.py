@@ -5,12 +5,12 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from connection_string import DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT
+from connection_string import DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT, DB_NAME
 
-new_db_name = 'jan21'
+new_db_name = DB_NAME # Currently it is 'jan21' 
 
 def get_connection_string_for_postgres():
-    dbname = "postgres"  # Connect to the default database first! I forgot about this! And it took time. 
+    dbname = "postgres"  # Connect to the default database first! I forgot about this! And that took time. 
     user = DB_USER
     password = DB_PASSWORD
     host = DB_HOST
