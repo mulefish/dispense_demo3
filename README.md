@@ -6,3 +6,4 @@ On my local host:
 pip install uv 
  - add uv into the PATH - 
  and to run a script it is : uv run .\somescript.py 
+

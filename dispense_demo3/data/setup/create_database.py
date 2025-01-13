@@ -14,7 +14,7 @@ new_db_name = 'jan21'
 
 # Connection string to connect to the default PostgreSQL database
 def get_connection_string_for_postgres():
-    # Use the default 'postgres' database to create the new one
+    # Use the default 'postgres' database to manage other databases
     dbname = "postgres"  # Connect to the default database first
     user = DB_USER
     password = DB_PASSWORD
@@ -22,6 +22,12 @@ def get_connection_string_for_postgres():
     port = DB_PORT
 
     return f"dbname={dbname} user={user} password={password} host={host} port={port}"
+
+def drop_database_if_exists(cursor, db_name):
+    """Drop the database if it already exists."""
+    drop_db_query = sql.SQL("DROP DATABASE IF EXISTS {}").format(sql.Identifier(db_name))
+    cursor.execute(drop_db_query)
+    print(f"Database '{db_name}' dropped if it existed.")
 
 # Main script to create the database and then reconnect to it
 try:
@@ -31,10 +37,12 @@ try:
     conn.autocommit = True  # Enable autocommit mode for database creation
     cursor = conn.cursor()
 
+    # Drop the database if it already exists
+    drop_database_if_exists(cursor, new_db_name)
+
     # SQL to create the new database
     create_db_query = sql.SQL("CREATE DATABASE {}").format(sql.Identifier(new_db_name))
     cursor.execute(create_db_query)
-
     print(f"Database '{new_db_name}' created successfully.")
     
     # Now, reconnect to the newly created database 'jan21'
