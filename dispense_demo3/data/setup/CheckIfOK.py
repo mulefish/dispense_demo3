@@ -3,13 +3,10 @@ from psycopg2 import sql
 import os
 import sys
 
-# Add the parent directory to the path to import connection_string.py
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-# Import connection string information
 from connection_string import DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT
 
-# Queries to check row counts
 TABLES = [
     "merchants",
     "stores",

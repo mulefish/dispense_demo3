@@ -1,15 +1,11 @@
 import psycopg2
-from psycopg2 import sql
 import os
 import sys
 
-# Add the parent directory to the path to import connection_string.py
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
-# Import connection string information
 from connection_string import DB_HOST, DB_NAME, DB_USER, DB_PASSWORD, DB_PORT
 
-# Data to insert into the Stores table
 STORES_DATA = [
     {
         "address": "232 Alameda, Oregon City, OR",
@@ -43,7 +39,6 @@ STORES_DATA = [
     },
 ]
 
-# SQL to insert data into the Stores table
 INSERT_STORE_QUERY = """
 INSERT INTO Stores (address, lat, lon, merchant_id, name, phone, image, distance)
 VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
@@ -52,7 +47,6 @@ ON CONFLICT DO NOTHING;
 
 def populate_stores():
     try:
-        # Establish a connection to the PostgreSQL database
         conn = psycopg2.connect(
             host=DB_HOST,
             dbname=DB_NAME,
@@ -62,7 +56,6 @@ def populate_stores():
         )
         cursor = conn.cursor()
 
-        # Insert each store into the table
         for store in STORES_DATA:
             cursor.execute(
                 INSERT_STORE_QUERY,
@@ -83,7 +76,6 @@ def populate_stores():
     except Exception as e:
         print("An error occurred while populating the Stores table:", e)
     finally:
-        # Clean up and close the connection
         if cursor:
             cursor.close()
         if conn:

@@ -6,10 +6,8 @@ import sys
 # Add the parent directory to the path to import connection_string.py
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
-# Import connection string information
 from connection_string import DB_HOST, DB_NAME, DB_USER, DB_PASSWORD, DB_PORT
 
-# SQL to insert data into the Inventory table
 INSERT_INVENTORY_QUERY = """
 INSERT INTO inventory (json, instock, merchant_id, price, row, spool, store_id, uid, img)
 VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
@@ -30,11 +28,9 @@ def load_inventory_from_file(filename):
 
 def populate_inventory():
     try:
-        # Load inventory data from the JSON file
         filename = "inventory.json"
         inventory_data = load_inventory_from_file(filename)
 
-        # Establish a connection to the PostgreSQL database
         conn = psycopg2.connect(
             host=DB_HOST,
             dbname=DB_NAME,
@@ -44,7 +40,6 @@ def populate_inventory():
         )
         cursor = conn.cursor()
 
-        # Insert each inventory item into the table
         for item in inventory_data:
             cursor.execute(
                 INSERT_INVENTORY_QUERY,
@@ -66,7 +61,6 @@ def populate_inventory():
     except Exception as e:
         print("An error occurred while populating the Inventory table:", e)
     finally:
-        # Clean up and close the connection
         if cursor:
             cursor.close()
         if conn:

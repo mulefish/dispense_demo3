@@ -1,21 +1,17 @@
 import psycopg2
-from psycopg2 import sql
 import os
 import sys
 
 # Add the parent directory to the path to import connection_string.py
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
-# Import connection string information
 from connection_string import DB_HOST, DB_NAME, DB_USER, DB_PASSWORD, DB_PORT
 
-# SQL to drop tables if they exist
 DROP_FEATURED_PRODUCTS_TABLE_QUERY = "DROP TABLE IF EXISTS featured_products;"
 DROP_INVENTORY_TABLE_QUERY = "DROP TABLE IF EXISTS inventory;"
 DROP_STORES_TABLE_QUERY = "DROP TABLE IF EXISTS stores;"
 DROP_MERCHANTS_TABLE_QUERY = "DROP TABLE IF EXISTS merchants;"
 
-# SQL to create the Merchants table
 CREATE_MERCHANTS_TABLE_QUERY = """
 CREATE TABLE merchants (
     merchant_id SERIAL PRIMARY KEY,
@@ -28,7 +24,6 @@ CREATE TABLE merchants (
 );
 """
 
-# SQL to create the Stores table
 CREATE_STORES_TABLE_QUERY = """
 CREATE TABLE stores (
     store_id SERIAL PRIMARY KEY,
@@ -44,7 +39,6 @@ CREATE TABLE stores (
 );
 """
 
-# SQL to create the Inventory table
 CREATE_INVENTORY_TABLE_QUERY = """
 CREATE TABLE inventory (
     machine_id SERIAL PRIMARY KEY,
@@ -62,7 +56,6 @@ CREATE TABLE inventory (
 );
 """
 
-# SQL to create the Featured Products table
 CREATE_FEATURED_PRODUCTS_TABLE_QUERY = """
 CREATE TABLE featured_products (
     product_id SERIAL PRIMARY KEY,
@@ -83,7 +76,6 @@ CREATE TABLE featured_products (
 
 def create_tables():
     try:
-        # Establish a connection to the PostgreSQL database
         conn = psycopg2.connect(
             host=DB_HOST,
             dbname=DB_NAME,
@@ -93,7 +85,6 @@ def create_tables():
         )
         cursor = conn.cursor()
 
-        # Drop tables if they exist
         cursor.execute(DROP_FEATURED_PRODUCTS_TABLE_QUERY)
         print("Table 'featured_products' dropped successfully (if it existed).")
         cursor.execute(DROP_INVENTORY_TABLE_QUERY)
@@ -103,29 +94,23 @@ def create_tables():
         cursor.execute(DROP_MERCHANTS_TABLE_QUERY)
         print("Table 'merchants' dropped successfully (if it existed).")
 
-        # Create the Merchants table
         cursor.execute(CREATE_MERCHANTS_TABLE_QUERY)
         print("Table 'merchants' created successfully.")
 
-        # Create the Stores table
         cursor.execute(CREATE_STORES_TABLE_QUERY)
         print("Table 'stores' created successfully.")
 
-        # Create the Inventory table
         cursor.execute(CREATE_INVENTORY_TABLE_QUERY)
         print("Table 'inventory' created successfully.")
 
-        # Create the Featured Products table
         cursor.execute(CREATE_FEATURED_PRODUCTS_TABLE_QUERY)
         print("Table 'featured_products' created successfully.")
 
-        # Commit the changes
-        conn.commit()
+        conn.commit() # Doesn't autocommit do this?
 
     except Exception as e:
         print("An error occurred while creating the tables:", e)
     finally:
-        # Clean up and close the connection
         if cursor:
             cursor.close()
         if conn:
