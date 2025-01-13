@@ -1,3 +1,6 @@
+# CONNECTION string 
+Check one directory up and look in 'connection_string.py' for connection details. Currently set to my localhost, my local user and my password - those will need to be changed. And MAYBE the port will need to be changed.   
+
 # RUN ORDER for the scripts! 
 create_database.py   
 create_tables.py   
