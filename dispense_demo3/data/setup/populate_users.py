@@ -13,7 +13,7 @@ USERS_DATA = [
         "phone": "5037842584",
         "isIdentifyOk": True,
         "isAeropayOk": True,
-        "password": "This is my password",
+        "password": "a",
         "isLocationOk": True,
         "lat": 45.5152,
         "lon": -122.6784
@@ -24,7 +24,7 @@ USERS_DATA = [
         "phone": "5037842584",
         "isIdentifyOk": True,
         "isAeropayOk": True,
-        "password": "This is my password",
+        "password": "a",
         "isLocationOk": True,
         "lat": 45.3573,
         "lon": -122.6068
