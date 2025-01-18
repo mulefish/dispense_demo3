@@ -8,6 +8,7 @@ populate_mechants.py
 populate_stores.py   
 populate_inventory.py   
 populate_featured_products.py   
+popullate_users.py
 CheckIfOK.py   
     
 If CheckIfOK says """OK! The tables are populated properly!""" then it is all good

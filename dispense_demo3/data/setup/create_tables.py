@@ -11,6 +11,7 @@ DROP_FEATURED_PRODUCTS_TABLE_QUERY = "DROP TABLE IF EXISTS featured_products;"
 DROP_INVENTORY_TABLE_QUERY = "DROP TABLE IF EXISTS inventory;"
 DROP_STORES_TABLE_QUERY = "DROP TABLE IF EXISTS stores;"
 DROP_MERCHANTS_TABLE_QUERY = "DROP TABLE IF EXISTS merchants;"
+DROP_USERS_TABLE_QUERY = "DROP TABLE IF EXISTS users;"
 
 CREATE_MERCHANTS_TABLE_QUERY = """
 CREATE TABLE merchants (
@@ -74,6 +75,20 @@ CREATE TABLE featured_products (
 );
 """
 
+CREATE_USERS_TABLE_QUERY = """
+CREATE TABLE users (
+    user_id SERIAL PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    phone VARCHAR(50),
+    isIdentifyOk BOOLEAN DEFAULT FALSE,
+    isAeropayOk BOOLEAN DEFAULT FALSE,
+    password VARCHAR(255) NOT NULL,
+    isLocationOk BOOLEAN NOT NULL,
+    lat DOUBLE PRECISION,
+    lon DOUBLE PRECISION
+);
+"""
 def create_tables():
     try:
         conn = psycopg2.connect(
@@ -93,6 +108,8 @@ def create_tables():
         print("Table 'stores' dropped successfully (if it existed).")
         cursor.execute(DROP_MERCHANTS_TABLE_QUERY)
         print("Table 'merchants' dropped successfully (if it existed).")
+        cursor.execute(DROP_USERS_TABLE_QUERY)
+        print("Table 'users' dropped successfully (if it existed).")
 
         cursor.execute(CREATE_MERCHANTS_TABLE_QUERY)
         print("Table 'merchants' created successfully.")
@@ -106,7 +123,10 @@ def create_tables():
         cursor.execute(CREATE_FEATURED_PRODUCTS_TABLE_QUERY)
         print("Table 'featured_products' created successfully.")
 
-        conn.commit() # Doesn't autocommit do this?
+        cursor.execute(CREATE_USERS_TABLE_QUERY)
+        print("Table 'users' created successfully.")
+
+        conn.commit()
 
     except Exception as e:
         print("An error occurred while creating the tables:", e)
