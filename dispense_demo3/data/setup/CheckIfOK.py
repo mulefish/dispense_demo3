@@ -1,8 +1,9 @@
-import psycopg2
-from psycopg2 import sql
 import os
 import sys
+
 import dotenv
+import psycopg2
+
 dotenv.load_dotenv()
 
 
