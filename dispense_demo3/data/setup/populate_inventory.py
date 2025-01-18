@@ -2,11 +2,11 @@ import psycopg2
 import json
 import os
 import sys
+import dotenv
 
-# Add the parent directory to the path to import connection_string.py
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+dotenv.load_dotenv()
 
-from connection_string import DB_HOST, DB_NAME, DB_USER, DB_PASSWORD, DB_PORT
+
 
 INSERT_INVENTORY_QUERY = """
 INSERT INTO inventory (json, instock, merchant_id, price, row, spool, store_id, uid, img)
@@ -32,11 +32,11 @@ def populate_inventory():
         inventory_data = load_inventory_from_file(filename)
 
         conn = psycopg2.connect(
-            host=DB_HOST,
-            dbname=DB_NAME,
-            user=DB_USER,
-            password=DB_PASSWORD,
-            port=DB_PORT
+            host=os.getenv("DB_HOST"),
+            dbname=os.getenv("DB_NAME"),
+            user=os.getenv("DB_USER"),
+            password=os.getenv("DB_PASSWORD"),
+            port=os.getenv("DB_PORT")
         )
         cursor = conn.cursor()
 

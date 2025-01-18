@@ -2,10 +2,9 @@ import psycopg2
 from psycopg2 import sql
 import os
 import sys
+import dotenv
+dotenv.load_dotenv()
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
-from connection_string import DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT
 
 def print_fail(message):
     red_color = "\033[31m"
@@ -30,11 +29,11 @@ COUNT_QUERY_TEMPLATE = "SELECT COUNT(*) FROM {}"
 def check_table_population():
     try:
         conn = psycopg2.connect(
-            dbname=DB_NAME,
-            user=DB_USER,
-            password=DB_PASSWORD,
-            host=DB_HOST,
-            port=DB_PORT
+            dbname=os.getenv("DB_NAME"),
+            user=os.getenv("DB_USER"),
+            password=os.getenv("DB_PASSWORD"),
+            host=os.getenv("DB_HOST"),
+            port=os.getenv("DB_PORT")
         )
         cursor = conn.cursor()
 

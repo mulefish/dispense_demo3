@@ -1,10 +1,9 @@
 import psycopg2
 import os
 import sys
+import dotenv
 
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
-
-from connection_string import DB_HOST, DB_NAME, DB_USER, DB_PASSWORD, DB_PORT
+dotenv.load_dotenv()
 
 USERS_DATA = [
     {
@@ -40,11 +39,11 @@ ON CONFLICT DO NOTHING;
 def populate_users():
     try:
         conn = psycopg2.connect(
-            host=DB_HOST,
-            dbname=DB_NAME,
-            user=DB_USER,
-            password=DB_PASSWORD,
-            port=DB_PORT
+            host=os.getenv("DB_HOST"),
+            dbname=os.getenv("DB_NAME"),
+            user=os.getenv("DB_USER"),
+            password=os.getenv("DB_PASSWORD"),
+            port=os.getenv("DB_PORT")
         )
         cursor = conn.cursor()
 

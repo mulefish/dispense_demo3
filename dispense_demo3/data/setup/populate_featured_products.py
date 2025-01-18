@@ -2,15 +2,17 @@ import psycopg2
 import json
 import os
 import sys
+import dotenv
 
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+dotenv.load_dotenv()
+
+
 INSERT_FEATURED_PRODUCTS_QUERY = """
 INSERT INTO featured_products (json, instock, merchant_id, price, row, spool, store_id, uid, img, description)
 VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
 ON CONFLICT DO NOTHING;
 """
 
-from connection_string import DB_HOST, DB_NAME, DB_USER, DB_PASSWORD, DB_PORT
 def load_featured_products_from_file(filename):
     try:
         with open(filename, 'r') as file:
@@ -28,11 +30,11 @@ def populate_featured_products():
         featured_products_data = load_featured_products_from_file(filename)
 
         conn = psycopg2.connect(
-            host=DB_HOST,
-            dbname=DB_NAME,
-            user=DB_USER,
-            password=DB_PASSWORD,
-            port=DB_PORT
+            host=os.getenv("DB_HOST"),
+            dbname=os.getenv("DB_NAME"),
+            user=os.getenv("DB_USER"),
+            password=os.getenv("DB_PASSWORD"),
+            port=os.getenv("DB_PORT"),
         )
         cursor = conn.cursor()
 

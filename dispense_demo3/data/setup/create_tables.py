@@ -1,11 +1,10 @@
+import dotenv
 import psycopg2
 import os
 import sys
+import dotenv
 
-# Add the parent directory to the path to import connection_string.py
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
-
-from connection_string import DB_HOST, DB_NAME, DB_USER, DB_PASSWORD, DB_PORT
+dotenv.load_dotenv()
 
 DROP_FEATURED_PRODUCTS_TABLE_QUERY = "DROP TABLE IF EXISTS featured_products;"
 DROP_INVENTORY_TABLE_QUERY = "DROP TABLE IF EXISTS inventory;"
@@ -92,11 +91,11 @@ CREATE TABLE users (
 def create_tables():
     try:
         conn = psycopg2.connect(
-            host=DB_HOST,
-            dbname=DB_NAME,
-            user=DB_USER,
-            password=DB_PASSWORD,
-            port=DB_PORT
+            host=os.getenv("DB_HOST"),
+            dbname=os.getenv("DB_NAME"),
+            user=os.getenv("DB_USER"),
+            password=os.getenv("DB_PASSWORD"),
+            port=os.getenv("DB_PORT"),
         )
         cursor = conn.cursor()
 
