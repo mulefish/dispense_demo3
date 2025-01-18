@@ -20,7 +20,7 @@ USERS_DATA = [
     },
     {
         "username": "bluegreensomething",
-        "email": "paul.montgomery@gmail.com",
+        "email": "paul.montgomery@dispensego.com",
         "phone": "5037842584",
         "isIdentifyOk": True,
         "isAeropayOk": True,

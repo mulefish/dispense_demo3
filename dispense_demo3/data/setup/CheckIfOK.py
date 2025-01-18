@@ -12,6 +12,11 @@ def print_fail(message):
     reset_color = "\033[0m"    
     sys.stdout.write(f"{red_color}{message}{reset_color}\n")
 
+def print_success(message):
+    light_green_color = "\033[92m"
+    reset_color = "\033[0m"
+    sys.stdout.write(f"{light_green_color}{message}{reset_color}\n")
+
 TABLES = [
     "merchants",
     "stores",
@@ -42,11 +47,12 @@ def check_table_population():
             print(f"Table '{table}' has {count} rows.")
 
             # FAILBOT! Everything ought to have at least 2!
+            # NOTE TO SELF! IF this is a fail, mostly likely the " email VARCHAR(255) NOT NULL UNIQUE," is the issue!
             if count < 2:
                 all_populated = False
 
         if all_populated:
-            print("OK! The tables are populated properly!")
+            print_success("OK! The tables are populated properly!")
         else:
             print_fail("No! At least one table is missing data.")
 
