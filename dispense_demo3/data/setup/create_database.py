@@ -1,20 +1,17 @@
 import psycopg2
 from psycopg2 import sql
-import sys
 import os
+import dotenv
+dotenv.load_dotenv()
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
-from connection_string import DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT, DB_NAME
-
-new_db_name = DB_NAME # Currently it is 'jan21' 
+new_db_name = os.getenv("DB_NAME") # Currently it is 'jan21'
 
 def get_connection_string_for_postgres():
     dbname = "postgres"  # Connect to the default database first! I forgot about this! And that took time. 
-    user = DB_USER
-    password = DB_PASSWORD
-    host = DB_HOST
-    port = DB_PORT
+    user = os.getenv("DB_USER")
+    password = os.getenv("DB_PASSWORD")
+    host = os.getenv("DB_HOST")
+    port = os.getenv("DB_PORT")
 
     return f"dbname={dbname} user={user} password={password} host={host} port={port}"
 
@@ -37,7 +34,7 @@ try:
     cursor.execute(create_db_query)
     print(f"Database '{new_db_name}' created successfully.")
     
-    connection_string = f"dbname={new_db_name} user={DB_USER} password={DB_PASSWORD} host={DB_HOST} port={DB_PORT}"
+    connection_string = f"dbname={new_db_name} user={os.getenv("DB_USER")} password={os.getenv("DB_PASSWORD")} host={os.getenv("DB_HOST")} port={os.getenv("DB_PORT")}"
     conn = psycopg2.connect(connection_string)
     print(f"Successfully connected to the database '{new_db_name}'.")
 
