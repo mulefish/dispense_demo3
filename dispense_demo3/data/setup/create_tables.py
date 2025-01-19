@@ -42,7 +42,7 @@ CREATE TABLE stores (
 
 CREATE_INVENTORY_TABLE_QUERY = """
 CREATE TABLE inventory (
-    machine_id NOT NULL,
+    machine_id INTEGER NOT NULL,
     instock INTEGER NOT NULL,
     price DECIMAL(10, 2) NOT NULL,
     row INTEGER,
@@ -53,7 +53,7 @@ CREATE TABLE inventory (
     store_id INTEGER NOT NULL,
     FOREIGN KEY (merchant_id) REFERENCES merchants(merchant_id) ON DELETE CASCADE,
     FOREIGN KEY (store_id) REFERENCES stores(store_id) ON DELETE CASCADE,
-    json JSON NOT NULL,
+    json JSON NOT NULL
 );
 """
 

@@ -8,9 +8,11 @@ sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
 from connection_string import DB_HOST, DB_NAME, DB_USER, DB_PASSWORD, DB_PORT
 
+
+
 INSERT_INVENTORY_QUERY = """
 INSERT INTO inventory (machine_id, instock, merchant_id, price, row, spool, store_id, uid, img, json)
-VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
+VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
 ON CONFLICT DO NOTHING;
 """
 
@@ -44,7 +46,7 @@ def populate_inventory():
             cursor.execute(
                 INSERT_INVENTORY_QUERY,
                 (
-                    item["JSON"],
+                    item["machine_id"],
                     item["instock"],
                     item["merchant_id"],
                     item["price"],
@@ -52,7 +54,9 @@ def populate_inventory():
                     item["spool"],
                     item["store_id"],
                     item["uid"],
-                    item["img"],
+                    item["img"],                    
+                    item["JSON"],
+
                 )
             )
         conn.commit()
