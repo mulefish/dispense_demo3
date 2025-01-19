@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,10 +15,153 @@
         <br>
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required>
-        <button type="button" id="togglePassword">Show</button> <!-- Show/Hide Button -->
+        <button type="button" id="togglePassword">Show</button>
         <br>
         <button type="submit">Login</button>
     </form>
     <div id="responseMessage" style="margin-top: 20px;"></div>
+    main
 </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dispense!</title>
+    <link rel="stylesheet" href="/static/internal_scripts/page_styles.css">
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="/static/script.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Modal structure store location -->
+
+
+    <div id="useruserModal" class="userModal">
+        <div class="userModal-content">
+            <span class="close" onclick="closeuserModal()">&times;</span>
+            <h2>User Information</h2>
+            <form id="userForm">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required><br><br>
+    
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required><br><br>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+    
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required><br><br>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Store location</h2>
+            <hr/>
+            <!-- <img src="/static/images/map.png" width="800" ></img> -->
+                <button id="closeBtn" class="button button-primary">Close</button>
+        </div>
+    </div>
+
+      <!-- Modal for cart -->
+      <div id="cartModal" class="cart-modal">
+        <div class="cart-modal-content">
+            <span class="cart-close" id="closeCartModal">&times;</span>
+            <h2>Your Cart : <button onclick="gotoPurchase();">purchase step 1 of 2</button></h2>
+            <div id="cart-container"></div>
+        </div>
+    </div>
+    <script>
+        function gotoPurchase() {
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            if ( cart == undefined || cart.length == 0 ) {
+                alert( "There is nothing is the cart to purchase.")
+            } else {
+                window.location="/checkout.html"
+            }
+        }
+    </script>
+    <header>
+        <div class="logo">
+            <img src="/static/images/Logo.png" alt="Logo">
+        </div>
+        <div class="right-menu">
+            <div class="hamburger" onclick="toggleHamburger()">☰</div>
+            <!-- <a href="aeropay.html">aero</a> -->
+
+            <div class="icons">
+
+                <i class="fas fa-rocket" onclick="fa_rocket()"></i>
+                <i class="fas fa-user" onclick="fa_user()"></i>
+                <i class="fas fa-map" onclick="fa_map()"></i>
+                <div class="cart-icon" onclick="cartBtnClick();">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count" id="cart_count">&nbsp;</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <hr />
+    <div id="content">
+        <!-- <START CONTENT> -->
+        <input id="searchInputField" type="text" size="50" placeholder="type, mood, brand etc etc"></input>
+        <button onclick="search()">search</button>
+        &nbsp;
+        CBD:
+        <select id="cbd">
+            <option value="0" selected>any</option>
+            <option value="1">1+</option>
+            <option value="2">2+</option>
+            <option value="4">4+</option>
+            <option value="8">8+</option>
+            <option value="16">16+</option>
+        </select>
+        THC:
+        <select id="thc">
+            <option value="0" selected>any</option>
+            <option value="1">1+</option>
+            <option value="2">2+</option>
+            <option value="4">4+</option>
+            <option value="8">8+</option>
+            <option value="16">16+</option>
+        </select>
+        STYLE:
+        <select id="productStyle">
+            <option value="any" selected>any</option>
+            <option value="wax">Wax</option>
+            <option value="flower">Flower</option>
+            <option value="cartridge">Cartridge</option>
+        </select>
+        <button onclick="resetSearchChoices()">reset choices</button>
+
+        <hr />
+        <div id="viewport"></div>
+        <div id="cart-container"></div>
+        <div id="showing"></div>
+    </div>
+    <!-- <END CONTENT> -->
+    <script src="/static/internal_scripts/page_script.js"></script>
+    <script src="/static/internal_scripts/map_modal.js"></script>
+    <script src="/static/internal_scripts/dbHandler.js"></script>
+
+    <script>
+        populateStoreTiles()
+    </script>
+
+</body>
+
 </html>

@@ -5,7 +5,8 @@ import sys
 # Add the data directory to the Python path
 sys.path.append(os.path.join(os.path.dirname(__file__), 'data'))
 
-from db_handler import validate_user
+# from db_handler import validate_user, get_stores_from_db
+import db_handler
 from waitress import serve
 
 app = Flask(__name__)
@@ -14,26 +15,33 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+@app.route('/main')
+def main():
+    return render_template('index-main.html')
+
+@app.route('/get_stores', methods=['GET'])
+def get_stores():
+    json_ary_of_objects = db_handler.get_stores()
+    return json_ary_of_objects
+
 @app.route('/login', methods=['POST'])
 def login():
-    # Parse JSON data from the request
     data = request.get_json()
     username = data.get('username')
     password = data.get('password')
     print(f"username: {username}, password: {password}")
 
-    if validate_user(username, password):
-        return jsonify({
-            "status": "OK",
-            "message": "Login successful!",
-            "statusType": "success"
-        })
+    result = {}
+    if db_handler.validate_user(username, password):
+        result["status"]="OK"
+        result["message"] = "Login successful"
+        result["statusType"] = "success"
     else:
-        return jsonify({
-            "status": "FAIL",
-            "message": "Invalid username or password!",
-            "statusType": "error"
-        })
+        result["status"]="FAIL"
+        result["message"] = "Invalid username or password!"
+        result["statusType"] = "denied"
+    return jsonify(result)
+
 
 if __name__ == '__main__':
     host = '0.0.0.0'
