@@ -99,7 +99,7 @@ async function populateStoreTiles() {
                     onmouseleave="handleMouseLeaveStoreTile(this)"
                     onclick="handleStoreTileClick('${store.storeId}')"
         ><div class="container" >
-        <img class="product-image" src="images/${store.image}" alt="${store.image}">
+        <img class="product-image" src="/static/images/${store.image}" alt="${store.image}">
         <div class="product-tile">
             <div class="product-info">
                 <h2>${store.name}</h2>
