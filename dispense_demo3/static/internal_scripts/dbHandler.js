@@ -6,7 +6,7 @@ let storeMap;
 const searchInputField = document.getElementById("searchInputField");
 // end globals
 const GET_STORES="get_stores"
-
+const GET_INVENTORY = "get_inventory"
 async function load_data_from_db(cmd) { 
     if ( cmd == GET_STORES) {
         try {
@@ -19,7 +19,15 @@ async function load_data_from_db(cmd) {
         } catch (error) {
             console.error('There has been a problem with fetching ' + pathToBallOfJson, error);
         }
-
+    }
+    else if ( cmd == GET_INVENTORY ) {
+        const response = await fetch(GET_INVENTORY);
+        if (!response.ok) {
+            throw new Error('Network response was not ok' + response.statusText);
+        }
+        const result = await response.json();
+        return result;
+    
     } else {
         alert("cmd " + cmd + " not found!")
     }
@@ -143,15 +151,19 @@ function isOkToUseThisItem(cbd, thc, productStyle, candidateEntry) {
 }
 
 async function viewInventoryForStore(storeId) {
-    console.log("%c viewInventoryForStore", "background-color:lightgreen;")
     if (inventory === undefined) {
-        inventory = await loadJSON("datastore/inventory.json");
+        // inventory = await loadJSON("datastore/inventory.json");
+        inventory = await load_data_from_db(GET_INVENTORY)
     }
-
+    
     const a = sillyMusicalNotes_thisFuncReallyDoesNotNeedToExist_IthoughtItCute()
     const b = sillyMusicalNotes_thisFuncReallyDoesNotNeedToExist_IthoughtItCute()
 
     const storeName = getStoreNameFromStoreId(storeId)
+
+
+    console.log("%c viewInventoryForStore storeId is " + storeId  + " and " + storeName + " len "+ inventory.length  , "background-color:lightgreen;")
+
 
     let row = `<h1>${a} ${storeName} ${b}</h1><table border='1'><tr>`;
 
@@ -164,8 +176,9 @@ async function viewInventoryForStore(storeId) {
 
     for (let i = 0; i < inventory.length; i++) {
         if (inventory[i].storeId_fk == storeId) {
-            const obj = inventory[i];
-            let detail_obj = JSON.parse(obj.JSON);
+
+           const obj = inventory[i] 
+           const detail_obj = obj["JSON"];
 
             const keep = isOkToUseThisItem(cbd, thc, productStyle, detail_obj)
 

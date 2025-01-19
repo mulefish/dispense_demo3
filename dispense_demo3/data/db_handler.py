@@ -1,10 +1,57 @@
 import psycopg2
 import os
 import sys
-import json
+
 
 sys.path.append(os.path.dirname(__file__))
 from connection_string import DB_HOST, DB_NAME, DB_USER, DB_PASSWORD, DB_PORT
+
+def get_inventory():
+    query = "SELECT * FROM inventory;"
+    try:
+        conn = psycopg2.connect(
+            host=DB_HOST,
+            dbname=DB_NAME,
+            user=DB_USER,
+            password=DB_PASSWORD,
+            port=DB_PORT
+        )
+        cursor = conn.cursor()
+        cursor.execute(query)
+        result = cursor.fetchall()
+
+        items = []
+        for row in result:
+            item = {
+                "machineId": row[0],
+                "instock": row[1],
+                "price": str(row[2]),
+                "merchantId_fk": row[7],
+                "rowId": row[3],
+                "spoolId": row[4],
+                "storeId_fk": row[8],
+                "uid": row[5],
+                "img": row[6],
+                "JSON": row[9]
+            }
+            items.append(item)
+
+        return items
+
+    except Exception as e:
+        error_response = {"error": f"Error retrieving inventory: {str(e)}", "status": "error"}
+        
+        if "FLASK_APP" in os.environ:
+            from flask import jsonify
+            return jsonify(error_response), 500
+        else:
+            return json.dumps(error_response, indent=4)
+
+    finally:
+        if cursor:
+            cursor.close()
+        if conn:
+            conn.close()
 
 def get_stores():
     query = "SELECT * FROM stores;"

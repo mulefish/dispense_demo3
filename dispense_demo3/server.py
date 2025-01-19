@@ -19,9 +19,19 @@ def index():
 def main():
     return render_template('index-main.html')
 
+
+
+@app.route('/get_inventory', methods=['GET'])
+def get_inventory():
+    json_ary_of_objects = db_handler.get_inventory()
+    print("get_inventory len = {}".format(len(json_ary_of_objects ) ) )
+    return json_ary_of_objects
+
+
 @app.route('/get_stores', methods=['GET'])
 def get_stores():
     json_ary_of_objects = db_handler.get_stores()
+    print("get_stores len = {}".format(len(json_ary_of_objects ) ) )
     return json_ary_of_objects
 
 @app.route('/login', methods=['POST'])
@@ -29,8 +39,7 @@ def login():
     data = request.get_json()
     username = data.get('username')
     password = data.get('password')
-    print(f"username: {username}, password: {password}")
-
+    print("login for {}".format(username) )
     result = {}
     if db_handler.validate_user(username, password):
         result["status"]="OK"
